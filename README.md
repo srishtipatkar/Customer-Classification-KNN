@@ -1,3 +1,12 @@
+# K-Nearest Neighbors
+
+## Objectives
+
+After completing this lab you will be able to:
+
+*   Use K Nearest neighbors to classify data
+**K-Nearest Neighbors** is a supervised learning algorithm. Where the data is 'trained' with data points corresponding to their classification. To predict the class of a given data point, it takes into account the classes of the 'K' nearest data points and chooses the class in which the majority of the 'K' nearest data points belong to as the predicted class.
+
 Imagine a telecommunications provider has segmented its customer base by service usage patterns, categorizing the customers into four groups. If demographic data can be used to predict group membership, the company can customize offers for individual prospective customers. It is a classification problem. That is, given the dataset, with predefined labels, we need to build a model to be used to predict class of a new or unknown case.
 
 The example focuses on using demographic data, such as region, age, and marital, to predict usage patterns.
